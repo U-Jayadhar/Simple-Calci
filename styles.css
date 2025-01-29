@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.tile {
+  margin: 5px;
+  height: 60px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #4622bd;
+  background-color: white;
+  box-shadow: 10px;
+  font-size: 30px;
+  font-weight: 800;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.calci {
+  background-color: #9073ef;
+  padding: 10px;
+  border-radius: 15px;
+  width: fit-content;
+  font-family: Montserrat;
+}

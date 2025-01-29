@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    >
+  </head>
+  <body
+    style="
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* height: 100vh; */
+    "
+  >
+    <h1 style="font-family: Poppins">Calculator App with Interface</h1>
+    <div class="calci">
+      <div class="tile" style="width: 440px; font-size: 20px">
+        <p class="text" id="input"></p>
+      </div>
+      <div style="display: flex; flex-direction: row">
+        <div class="tile" id="clear">C</div>
+        <div class="tile" id="back">B</div>
+        <div class="tile" id="numb">%</div>
+        <div class="tile" id="numb">/</div>
+      </div>
+      <div style="display: flex; flex-direction: row">
+        <div class="tile" id="numb">7</div>
+        <div class="tile" id="numb">8</div>
+        <div class="tile" id="numb">9</div>
+        <div class="tile" id="numb">*</div>
+      </div>
+      <div style="display: flex; flex-direction: row">
+        <div class="tile" id="numb">4</div>
+        <div class="tile" id="numb">5</div>
+        <div class="tile" id="numb">6</div>
+        <div class="tile" id="numb">-</div>
+      </div>
+      <div style="display: flex; flex-direction: row">
+        <div class="tile" id="numb">1</div>
+        <div class="tile" id="numb">2</div>
+        <div class="tile" id="numb">3</div>
+        <div class="tile" id="numb">+</div>
+      </div>
+      <div style="display: flex; flex-direction: row">
+        <div class="tile" id="numb">^</div>
+        <div class="tile" id="numb">0</div>
+        <div class="tile" id="numb">.</div>
+        <div
+          class="tile"
+          id="equal"
+          style="background-color: #4622bd; color: white"
+        >
+          =
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
