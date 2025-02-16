@@ -43,7 +43,11 @@ numbBtn.forEach((numb) => {
 });
 
 back.addEventListener("click", function () {
-  espress = String(espress).slice(0, -1);
+  if (input.textContent === "Error" || input.textContent === "Infinity") {
+    espress = "";
+  } else {
+    espress = String(espress).slice(0, -1);
+  }
   input.textContent = espress;
 });
 clear.addEventListener("click", function () {

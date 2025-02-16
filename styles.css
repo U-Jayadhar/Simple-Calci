@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+body {
+  background-color: #323232;
+  color: #f0f0f0;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
 .tile {
   margin: 5px;
   height: 60px;
@@ -10,19 +22,28 @@
   align-items: center;
   border-radius: 10px;
   border-style: solid;
-  border-color: #4622bd;
-  background-color: white;
+  border-color: #3e18bb;
+  color: #323232;
+  background-color: #e6e6e6;
   box-shadow: 10px;
   font-size: 30px;
   font-weight: 800;
-  &:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
+}
+
+.tile#equal {
+  background-color: #3e18bb;
+  color: #f0f0f0;
 }
 .calci {
-  background-color: #9073ef;
+  background-color: #5f41c2;
   padding: 10px;
   border-radius: 15px;
   width: fit-content;
   font-family: Montserrat;
+}
+
+.calci div {
+  display: flex;
+  flex-direction: row;
 }
